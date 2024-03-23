@@ -13,10 +13,15 @@
   <li>If you implement componentDidMount, you usually need to implement other lifecycle methods to avoid bugs. For example, if componentDidMount reads some state or props, you also have to implement componentDidUpdate to handle their changes, and componentWillUnmount to clean up whatever componentDidMount was doing.</li>
 </ul>
 <br>
-<h1>1. ComponentDidUpdate</h1>
+<h1>2. ComponentDidUpdate</h1>
 <ul>
   <li>ComponentDidUpdate is part of the React component lifecycle. We use it to respond to external changes to a component's details or changes to its internal state. With componentDidUpdate, you can modify the central DOM node, request remote data, and update the internal state of your components.</li>
   <li>Syntex : ComponentDidUpdate(prevProps, prevState, snapshot) </li>
   <h3>What is componentDidUpdate?</h3>
   <li>ComponentDidUpdate is a React component lifecycle method invoked immediately after a component's updates are flushed to the DOM. This is one of the most used built-in methods, which is not called for the initial render nor applicable to your functional details.</li>
+</ul>
+<br>
+<h1>2. ComponentWillUnMount</h1>
+<ul>
+  <li>componentWillUnmount() is invoked immediately before a component is unmounted and destroyed. Perform any necessary cleanup in this method, such as invalidating timers, canceling network requests, or cleaning up any subscriptions that were created in componentDidMount()</li>
 </ul>
