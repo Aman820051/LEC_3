@@ -21,7 +21,7 @@
   <li>ComponentDidUpdate is a React component lifecycle method invoked immediately after a component's updates are flushed to the DOM. This is one of the most used built-in methods, which is not called for the initial render nor applicable to your functional details.</li>
 </ul>
 <br>
-<h1>2. ComponentWillUnMount</h1>
+<h1>3. ComponentWillUnMount</h1>
 <ul>
   <li>componentWillUnmount() is invoked immediately before a component is unmounted and destroyed. Perform any necessary cleanup in this method, such as invalidating timers, canceling network requests, or cleaning up any subscriptions that were created in componentDidMount()</li>
 </ul>
